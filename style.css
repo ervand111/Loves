@@ -140,17 +140,20 @@ body {
 }
 
 @media only screen and (max-width: 500px) {
+   
+    .open p{
+        font-size: 30px;
+    }
     .test p {
         font-size: 30px;
-        margin-top: 10px;
         animation: none;
         background: linear-gradient(45deg, #ff4d6d, #d63384);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         box-shadow: 0 0 30px 20px #E30079FF;
         color: black;
-        top: 0;
-        left: 0;
+        top: -10px;
+        left: -10px;
     }
 
     .test {
